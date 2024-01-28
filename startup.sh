@@ -6,9 +6,9 @@ sudo apt install -y  ruby-full ruby-bundler build-essential
 sudo apt update
 sudo apt install mongodb -y
 
-cd /home/yc-user
+cd ~/
 git clone -b monolith https://github.com/express42/reddit.git
-cd /home/yc-user/reddit && bundle install
+cd ~/reddit && bundle install
 puma -d
 
 ps aux | grep puma
