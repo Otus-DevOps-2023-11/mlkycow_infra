@@ -6,3 +6,4 @@ git clone -b monolith https://github.com/express42/reddit.git
 cd /home/yc-user/redit
 bundle install
 puma -d
+ps aux | grep puma
