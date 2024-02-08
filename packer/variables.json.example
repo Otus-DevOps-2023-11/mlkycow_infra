@@ -1,6 +1,6 @@
 {
     "folder_id": "bn6l2k50zmikp4r659mm",
     "source_image_family": "ubuntu-1604-lts",
-    "sa_yc_key_file": "/home/fmv/key.json",
+    "sa_yc_key_file": "./key.json",
     "subnet_id": "5cxdcxie1hslz5cl3xrn"
 }
