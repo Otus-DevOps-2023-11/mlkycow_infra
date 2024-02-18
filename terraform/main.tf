@@ -65,16 +65,11 @@ resource "yandex_compute_instance" "app" {
       image_id = var.image_id
     }
 
-    network_interface {
-      subnet_id = yandex_vpc_subnet.app-subnet.id
-      nat       = true
-    }
-
   }
 
   network_interface {
     # Указан id подсети default-ru-central1-a
-    subnet_id = var.subnet_id
+    subnet_id = yandex_vpc_subnet.app_subnet.id
     nat       = true
   }
 }
