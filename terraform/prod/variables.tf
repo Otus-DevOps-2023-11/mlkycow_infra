@@ -32,9 +32,20 @@ variable "subnet_id" {
 
 variable "service_account_key_file" {
   description = "key.json"
+  default = "key.json"
 }
 
 variable "instance_app_zone" {
   description = "Зона публикации ресурса"
   default     = "ru-central1-a"
+}
+
+variable "app_disk_image" {
+  description = "Disk image for reddit app"
+  default     = "fd81fcfur6l5qii28mki"
+}
+
+variable "db_disk_image" {
+  description = "Disk image for reddit app"
+  default     = "fd8m4s4n9jerg40f64gd"
 }
