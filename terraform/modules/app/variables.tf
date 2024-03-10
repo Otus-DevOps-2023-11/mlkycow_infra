@@ -26,7 +26,7 @@ variable "instance_app_zone" {
 
 variable "app_disk_image" {
   description = "Образ диска для приложения"
-  default     = "fd81fcfur6l5qii28mki"
+  default     = "fd8rji5s4sbkmudu0d4p"
 }
 
 variable "service_account_key_file" {

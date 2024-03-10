@@ -42,7 +42,7 @@ variable "instance_app_zone" {
 
 variable "app_disk_image" {
   description = "Disk image for reddit app"
-  default     = "fd81fcfur6l5qii28mki"
+  default     = "fd8qckn8p3494acd8lok"
 }
 
 variable "db_disk_image" {
