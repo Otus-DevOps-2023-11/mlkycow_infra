@@ -26,7 +26,7 @@ variable "instance_db_zone" {
 
 variable "db_disk_image" {
   description = "Образ диска для приложения"
-  default     = "fd8m4s4n9jerg40f64gd"
+  default     = "fd8cqrq6oc4de0rh1oq6"
 }
 
 variable "service_account_key_file" {
