@@ -1,14 +1,6 @@
 - name: Clone
   hosts: app
   tasks:
-    - name: Create directory
-      ansible.builtin.file:
-        path: /home/appuser
-        state: directory
-        owner: ubuntu
-        group: ubuntu
-        mode: 0775
-      become: true
     - name: Clone repo
       ansible.builtin.git:
         repo: https://github.com/express42/reddit.git
